@@ -1,0 +1,23 @@
+{
+  "name": "ai-movie-insight-builder-premium",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "framer-motion": "^12.34.4",
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "jest": "^29.0.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.4"
+  }
+}
