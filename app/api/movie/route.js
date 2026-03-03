@@ -78,7 +78,7 @@ Positive OR Mixed OR Negative.
     if (!geminiRes.ok || geminiData.error) {
       console.log("Gemini Error:", geminiData.error);
       return NextResponse.json(
-        { error: "Gemini API error. Try again later." },
+        { error: "Gemini API error. Try again in 2 minutes.." },
         { status: 500 },
       );
     }
